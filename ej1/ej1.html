@@ -14,18 +14,103 @@
 
 <body>
     <div class="container bg-primary p-5 mt-4">
-        <h1 class="m-3 text-success text-center fw-bold ">Titulo principal </h1>
-        <p class="bg-warning text-danger pe-3 ps-3 fst-italic text-uppercase fs-2">Lorem ipsum dolor sit amet
+        <h1 class="m-3 text-success text-center fw-bold display-1 ">Titulo principal </h1>
+        <p class="bg-warning text-danger pe-3 fw-lighter ps-3 fst-italic text-uppercase fs-2">Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Doloremque asperiores aliquid deserunt, hic,
             adipisci tempora fugiat sint illo sed optio accusantium deleniti quis porro eos nostrum voluptatem
             exercitationem fugit nulla.</p>
-        <p class="alert alert-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum et aut architecto qui dignissimos, ullam
+        <p class="alert alert-danger fw-bolder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum et
+            aut architecto qui dignissimos, ullam
             voluptatibus ex ab ut quo rem adipisci. Impedit id distinctio eos, soluta atque nesciunt non.</p>
     </div>
+    <div class="container bg-success p3 mb-5">
+        <h1 class="m-1 text-center text-capitalize fw-bold display-1 text-danger p-2 ">GRID</h1>
+    </div>
+    <div class="container-fluid">
 
+        <div class="row">
+            <div class="col-8 bg-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus consequuntur
+                fugit,
+                nostrum recusandae nisi nesciunt cumque enim magnam debitis illum distinctio perferendis quaerat
+                voluptates quidem eligendi. Aliquam inventore atque doloribus.</div>
+            <div class="col-4 bg-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus consequuntur
+                fugit,
+                nostrum recusandae nisi nesciunt cumque enim magnam debitis illum distinctio perferendis quaerat
+                voluptates quidem eligendi. Aliquam inventore atque doloribus.</div>
+        </div>
+        <div class="row">
+            <div class="col-4 bg-warning"><img class="rounded-circle w-50" src="" alt="No encontrada"></div>
+            <div class="col-4 alert alert-success">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+                consequuntur
+                fugit,
+                nostrum recusandae nisi nesciunt cumque enim magnam debitis illum distinctio perferendis quaerat
+                voluptates quidem eligendi. Aliquam inventore atque doloribus.</div>
+            <div class="col-4 bg-dark text-dark"><img class="img-thumbnail" alt="Imagen error"></div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12">5</div>
+        </div>
+        <div class="row">
+            <div class="col-2 bg-primary text-danger fw-bold text-center">9</div>
+            <div class="col-8 bg-info text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, libero.
+                Dolor
+                possimus vel, harum illum ducimus delectus maiores, nam eius sapiente praesentium nemo iure unde
+                exercitationem fugit illo quaerat impedit.</div>
+            <div class="col-2 bg-primary text-danger fw-bold text-center border border-dark border-4 border-top-0  ">11
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4 mb-4"></div>
+    <div class=" container-fluid">
+        <div class="row">los "row" tienen como maximo 12 celdas , cuando se usa col- seguido de lago mas como lg sm xl u
+            otros se indican , las celdas que se ocuparan en funcion del tamaño de la pantalla, estos a su vez van
+            seguidos de un numero que indicara cuandtas celdas seran ocupadas en funcion del tamaños de la pantalla ,
+            unos ejemplos serian : col-xl-4 col-xl-8
+            <div
+                class="col-lg-6 col-sm-8 col-xl-4 alert alert-primary border border-success border-2 p-1 p-lg-1 p-xl-2">
+                Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Consequuntur at a quasi quos harum veritatis illum, quas perferendis sed porro
+                corporis ea cupiditate sit possimus maiores similique ratione neque! Illum.</div>
+            <div class="col-lg-6 col-sm-4 col-xl-8 alert alert-danger border border-info border-4">Lorem, ipsum dolor
+                sit amet consectetur
+                adipisicing elit. Quia laudantium veniam sint quod provident aut earum magnam reprehenderit tempore
+                voluptatem, aspernatur modi. Optio error illo aperiam similique tempora magni reprehenderit?</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7 bg-primary col-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
+                repudiandae omnis,
+                veritatis corporis ex eaque. Voluptate, consequuntur dicta alias velit debitis expedita dolore
+                repudiandae quas eligendi labore veniam minus sint?
+            </div>
+            <div class="col-sm-5 col-6 bg-warning">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium ex recusandae et odit similique
+                aut ut ipsam quia, corrupti debitis, quaerat quibusdam velit dicta unde esse sapiente eius, laborum
+                error!
+            </div>
+        </div>
+    </div>
 
-
-
+    <div class="container-fluid">Este div deberia de solo tener un un bloque visible
+        <div class="row">
+            <div class=" col-3 bg-danger col-lg-6 d-xl-none">Este es un div invisible</div>
+            <div class=" d-block col-3 bg-secondary d-lg-none d-xl-block col-xl-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
+                totam nemo
+                repudiandae ad labore velit fugiat vero recusandae, quae quasi non, sequi amet officiis impedit?
+                Veritatis non quas ratione illo.</div>
+            <div class="bg-success col-3 col-lg-3  col-xl-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, similique quia, temporibus rerum eos
+                necessitatibus quaerat ullam tempora cupiditate, quam architecto atque possimus recusandae amet tenetur?
+                Omnis at alias doloremque!
+            </div>
+            <div class="bg-dark col-3 text-white col-lg-3 col-xl-4">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque aspernatur nulla est repellendus
+                repudiandae saepe beatae vel temporibus autem perferendis sit, amet impedit veritatis quod sequi
+                corporis, numquam quidem deleniti?
+            </div>
+        </div>
+    </div>
 
 </body>
 
