@@ -1,0 +1,17 @@
+#drop {
+  width: 300px; /* 2000 / 8 */
+  height: 1333px;
+  background: url(hand-drawn-animation-frames-element-collection.png) left center no-repeat;
+  background-size: 2000px 1333px; /* asegurar alineación de frames */
+  animation: sprite .8s steps(8) infinite;
+  -webkit-animation: sprite 3s steps(8) infinite;
+}
+
+@keyframes sprite {
+  from { background-position: 0 0; }
+  to   { background-position: -1750px 0; } /* -(2000 - 250) */
+}
+@-webkit-keyframes sprite {
+  from { background-position: 0 0; }
+  to   { background-position: -1750px 0; }
+}

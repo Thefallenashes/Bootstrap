@@ -1,0 +1,28 @@
+#sprite {
+    background-image: url(img/sprite3.jpg) left;
+    height: 114px;
+    width: 474px;
+    background-size: 500px 114px;
+    animation: sprite .8s steps(6) infinite;
+    -webkit-animation: sprite 3s steps(6) infinite;
+}
+
+@keyframes sprite {
+    from {
+        background-position: 0px 114px;
+    }
+
+    to {
+        background-position: 474px 114px;
+    }
+}
+
+@-webkit-keyframes sprite {
+    from {
+        background-position: 0px 114px;
+    }
+
+    to {
+        background-position: 474px 114px;
+    }
+}
